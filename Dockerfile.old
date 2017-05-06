@@ -4,7 +4,7 @@ MAINTAINER warren.schilpzand@gmail.com
 ENV DHCP_USER=dhcpd \
     WEBMIN_VERSION=1.8\
     DATA_DIR=/data \
-    container=docker 
+    container=docker
 
 RUN dnf -y install systemd \
     && dnf -y install wget \
